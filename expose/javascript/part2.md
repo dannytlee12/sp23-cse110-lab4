@@ -15,7 +15,7 @@
     C. student.greeting()
     D. student['Favorite Teacher'].name
     E. student.courseload[0]
-13. A. '32', since integers map to their exact string representation when adding string and int. 
+13. A. '32', since integers map to their exact string representation when adding string and int.  
     B. 1, since strings map to their int representations if they can be represented as ints when subtracting strings and ints. 
     C. 3, since null maps to 0
     D. '3null' since null maps to the string 'null'
