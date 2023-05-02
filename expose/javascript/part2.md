@@ -30,7 +30,9 @@
     E. false, true maps to 1 when comparing with an int. 1 is not equal to 2.   
     F. true, Boolean(2) evaluates to true   
 15. == uses the type conversion that is built into javascript. === does not.   
+
 17. [2,4,6] is returned. the for loop iterates through the array [1,2,3]. Each iteration uses the function that doubles an int and then pushes that new value into the new array. So the result will be an array with values that are double the original array's values. 
+
 19. 1  
     3  
     4  
