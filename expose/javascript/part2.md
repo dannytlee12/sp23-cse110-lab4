@@ -10,17 +10,25 @@
 9. There will be an error since the variable i is only defined in the scope of the for loop.
 10. Line 12 will print "3" length is defined in the same scope as the print statement and 3 is the length of the prices array.
 11. The function returns the array [50, 100, 150]. The discounted variable is defined in the same scope as the return statement so it will return the array.
-12. A. student.name
-    B. student['Grad Year']
-    C. student.greeting()
-    D. student['Favorite Teacher'].name
-    E. student.courseload[0]
+12. A. student.name  
+    B. student['Grad Year']  
+    C. student.greeting()  
+    D. student['Favorite Teacher'].name  
+    E. student.courseload[0]  
 13. A. '32', since integers map to their exact string representation when adding string and int.  
-    B. 1, since strings map to their int representations if they can be represented as ints when subtracting strings and ints. 
-    C. 3, since null maps to 0
-    D. '3null' since null maps to the string 'null'
-    E. 4, since true maps to 1
-    F. 0, since false maps to 0 and null maps to 0
-    G. '3undefined', since undefined maps to the string 'undefined'
-    H. NaN, since undefined does not map to any integer value when subtracting undefined from a string
+    B. 1, since strings map to their int representations if they can be represented as ints when subtracting strings and ints.  
+    C. 3, since null maps to 0.  
+    D. '3null' since null maps to the string 'null'.  
+    E. 4, since true maps to 1.  
+    F. 0, since false maps to 0 and null maps to 0.  
+    G. '3undefined', since undefined maps to the string 'undefined'.  
+    H. NaN, since undefined does not map to any integer value when subtracting undefined from a string.  
+14. A. true, when comparing string and int, map the string to its int value, if possible, then compare.
+    B. false, when comparing two strings, use ascii values. '2' is greater than '12' when comparing ascii values
+    C. true, since '2' is mapped to the int value 2 when using ==
+    D. false, since '2' is not mapped to anything when using ===. The string '2' is not the int 2.
+    E. false, true maps to 1 when comparing with an int. 1 is not equal to 2.
+    F. true, Boolean(2) evaluates to true 
+15. == uses the type conversion that is built into javascript. === does not. 
+16. 
  
