@@ -23,12 +23,13 @@
     F. 0, since false maps to 0 and null maps to 0.  
     G. '3undefined', since undefined maps to the string 'undefined'.  
     H. NaN, since undefined does not map to any integer value when subtracting undefined from a string.  
-14. A. true, when comparing string and int, map the string to its int value, if possible, then compare.
-    B. false, when comparing two strings, use ascii values. '2' is greater than '12' when comparing ascii values
-    C. true, since '2' is mapped to the int value 2 when using ==
-    D. false, since '2' is not mapped to anything when using ===. The string '2' is not the int 2.
-    E. false, true maps to 1 when comparing with an int. 1 is not equal to 2.
-    F. true, Boolean(2) evaluates to true 
-15. == uses the type conversion that is built into javascript. === does not. 
-16. 
+14. A. true, when comparing string and int, map the string to its int value, if possible, then compare.  
+    B. false, when comparing two strings, use ascii values. '2' is greater than '12' when comparing ascii values.  
+    C. true, since '2' is mapped to the int value 2 when using ==.  
+    D. false, since '2' is not mapped to anything when using ===. The string '2' is not the int 2.   
+    E. false, true maps to 1 when comparing with an int. 1 is not equal to 2.   
+    F. true, Boolean(2) evaluates to true   
+15. == uses the type conversion that is built into javascript. === does not.   
+17. [2,4,6] is returned. the for loop iterates through the array [1,2,3]. Each iteration uses the function that doubles an int and then pushes that new value into the new array. So the result will be an array with values that are double the original array's values. 
+18. 
  
